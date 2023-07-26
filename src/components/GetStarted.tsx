@@ -10,7 +10,7 @@ const GetStarted = () => {
     >
       <div
         className={`${styles.flexCenter} bg-primary w-full h-full 
-        rounded-full flex-col`}
+        rounded-full flex-col hover:bg-opacity-90 hover:scale-[110%] transition-all duration-200 ease-in-out`}
       >
         <div className={`${styles.flexStart} flex-row`}>
           <p
