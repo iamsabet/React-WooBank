@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import styles from "./style";
 import {
   Navbar,
@@ -33,6 +32,7 @@ const App = () => (
         <Business />
         <Billing />
         <CardDeal />
+        {/*  */}
         <Testimonials />
         <Clients />
         <CTA />
