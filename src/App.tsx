@@ -4,7 +4,7 @@ import {
   Navbar,
   Hero,
   Stats,
-  Bussines,
+  Business,
   Billing,
   CardDeal,
   Testimonials,
@@ -25,10 +25,12 @@ const App = () => (
         <Hero />
       </div>
     </div>
-    <div className={`bg-primary ${styles.flexStart} ${styles.boxWidth}`}>
+    <div
+      className={`bg-primary ${styles.flexStart} ${styles.boxWidth} mx-auto`}
+    >
       <div className={`${styles.boxWidth}`}>
         <Stats />
-        <Bussines />
+        <Business />
         <Billing />
         <CardDeal />
         <Testimonials />

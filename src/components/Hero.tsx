@@ -10,7 +10,7 @@ const Hero = () => {
       className={`flex md:flex-row flex-col ${styles.paddingY} justify-between items-start`}
     >
       <div
-        className={`flex flex-1 flex-col ${styles.flexStart} xl:px-1 ss:px-7 px-16`}
+        className={`flex flex-1 flex-col ${styles.flexStart} xl:px-0 ss:px-7 px-16`}
       >
         <div
           className="flex flex-row items-center
