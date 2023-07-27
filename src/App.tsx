@@ -27,12 +27,11 @@ const App = () => (
     <div
       className={`bg-primary ${styles.flexStart} ${styles.boxWidth} mx-auto`}
     >
-      <div className={`${styles.boxWidth}`}>
+      <div className={`${styles.boxWidth} ${styles.padding}`}>
         <Stats />
         <Business />
         <Billing />
         <CardDeal />
-        {/*  */}
         <Testimonials />
         <Clients />
         <CTA />

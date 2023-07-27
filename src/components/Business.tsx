@@ -10,9 +10,9 @@ type FeatureType = {
   index: number;
 };
 
-const FeatureCard = ({ id, icon, title, content, index }: FeatureType) => (
+const FeatureCard = ({ icon, title, content }: FeatureType) => (
   <div
-    className={`flex flex-row p-6 rounded-[20px] mb-6 feature-card last:mb-0 w-full`}
+    className={`flex flex-row py-5 rounded-[20px] mb-6 feature-card last:mb-0 w-full`}
   >
     <div
       className={`w-[64px] h-[64px] rounded-full bg-dimBlue ${styles.flexCenter}`}

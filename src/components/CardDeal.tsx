@@ -3,7 +3,7 @@ import Button from "./Button";
 import { card } from "../assets";
 
 const CardDeal = () => (
-  <section className={`${layout.section} px-5`}>
+  <section className={`${layout.section}`}>
     <div className={`${layout.sectionInfo} `}>
       <h2 className={styles.heading2}>
         Find a better card deal <br className="sm:block hidden" />

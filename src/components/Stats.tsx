@@ -1,16 +1,8 @@
-import React from "react";
-import styles from "../style";
 import { stats } from "../constants";
-type StatType = {
-  id: string;
-  title: string;
-  value: string;
-};
-type StaysType = StatType[];
 
 const Stats = () => (
   <div
-    className={`flex justify-start items-center flex-row flex-wrap sm:mb-20 mb-6 mx-auto px-3`}
+    className={`flex justify-start items-center flex-row flex-wrap sm:mb-20 mb-6 mx-auto`}
   >
     {stats.map((stat) => (
       <div
