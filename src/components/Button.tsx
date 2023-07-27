@@ -1,4 +1,3 @@
-import React from "react";
 type BtnStylesType = {
   styles: string;
   text: string;

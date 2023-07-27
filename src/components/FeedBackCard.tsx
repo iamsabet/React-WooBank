@@ -3,7 +3,7 @@ import { quotes } from "../assets";
 const FeedBackCard = ({ content, name, title, img }: FeedbackType) => (
   <div
     className="flex justify-between flex-col px-10 py-12 
-    rounded-[12px] max-w-[370px]  
+    rounded-[12px] max-w-[340px]  
     md:mr-10 sm:mr-0 mr-0 my-5 feedback-card"
   >
     <img

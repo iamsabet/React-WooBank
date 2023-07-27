@@ -1,5 +1,3 @@
-import React from "react";
-
 const NavLinks = ({ mobile, navLinks }: NavLinksPropsType) => {
   return (
     <ul
@@ -14,7 +12,7 @@ const NavLinks = ({ mobile, navLinks }: NavLinksPropsType) => {
             cursor-pointer text-[16px] text-white
             ${mobile ? "mr-10 last:mr-0" : "mb-4"}`}
         >
-          <a href={`#${nav.id}`} className="w-full h-full">
+          <a href={`#${nav.id}`} className="w-full h-full hover:text-dimWhite">
             {nav.title}
           </a>
         </li>
